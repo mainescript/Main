@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SadOz8/Uiiiiiii/refs/heads/main/iiiiiiii", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mainescript/Main/1efea7a43850eb4653c0bfcb44bc590ae9504dbc/Library.lua", true))()
 
 local window = library:AddWindow("Doom Paid | Farming", {
     main_color = Color3.fromRGB(192, 192, 192),
