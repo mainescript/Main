@@ -1,18 +1,18 @@
--- ⚡ SCP HUB | MUSCLE LEGENDS V5 | Made by TEJAZ
+-- 👑 DOOM PAID HUB | PRIVATE FARMING 👑
 -- Library: SilenceElerium by imhenne187
 -- MODIFICADO: Versión Premium (Plateado/Gris Metalizado)
 
 -- Reuse library from selector if available, else load fresh
 local library
-if _G.scpLibrary then
-    library = _G.scpLibrary
+if _G.DoomLibrary then
+    library = _G.DoomLibrary
 else
     library = loadstring(game:HttpGet("https://raw.githubusercontent.com/imhenne187/SilenceElerium/refs/heads/main/src/SilenceEleriumLibrary.luau", true))()
     _G.scpLibrary = library
 end
 
--- SCP LOGO INJECTOR
-local injectSCPLogo = _G.injectSCPLogo or (function(wFrame)
+-- DOOM LOGO INJECTOR
+local injectSCPLogo = _G.injectDoomLogo or (function(wFrame)
     task.spawn(function()
         -- Wait up to 3 seconds for Bar to exist
         local bar
@@ -33,9 +33,9 @@ local injectSCPLogo = _G.injectSCPLogo or (function(wFrame)
             tog.Image="rbxassetid://3926305904"
             tog.ImageColor3=Color3.fromRGB(220,220,220)  -- Plateado claro
             tog.Size=UDim2.new(0,18,0,18)
-            local ex=bar:FindFirstChild("SCPLogo"); if ex then ex:Destroy() end
+            local ex=bar:FindFirstChild("DoomLogo"); if ex then ex:Destroy() end
             local lbl=Instance.new("TextLabel")
-            lbl.Name="SCPLogo"; lbl.Size=UDim2.new(0,32,0,14)
+            lbl.Name="DoomLogo"; lbl.Size=UDim2.new(0,32,0,14)
             lbl.Position=UDim2.new(0,22,0,2); lbl.BackgroundTransparency=1
             lbl.Text="SCP"; lbl.TextColor3=Color3.fromRGB(200,200,200)  -- Plateado
             lbl.TextSize=11; lbl.Font=Enum.Font.FredokaOne
