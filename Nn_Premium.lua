@@ -111,7 +111,7 @@ local kWin, kFrame = library:AddWindow("💎 SCP HUB PREMIUM — Key System", {
     can_resize          = false,
 })
 local kt,_ = kWin:AddTab("💎 Key")
-kt:AddLabel("⚡ SCP HUB PREMIUM  |  Muscle Legends V5  |  Made by TEJAZ")
+kt:AddLabel("👑 DOOM PAID HUB  |  Private farming  👑")
 kt:AddLabel("🔑  Get your FREE key at:  discord.gg/nDSy4jdVDc")
 local stLbl = kt:AddLabel("📋  Paste your key below then press Enter")
 kt:AddTextBox("Paste key here then press Enter...", function(v)
@@ -139,11 +139,11 @@ local WIN_CFG = {
     title_bar           = {Color3.fromRGB(200,200,200), Color3.fromRGB(80,80,80)},  -- Plateado claro y gris oscuro
     background          = {Color3.fromRGB(18,18,20)},  -- Negro azulado muy oscuro
     background_transparency = 0,
-    min_size            = Vector2.new(600,280),
+    min_size            = Vector2.new(600,400),
     toggle_key          = Enum.KeyCode.RightShift,
     can_resize          = true,
 }
-local win, winFrame = library:AddWindow("💎 SCP HUB PREMIUM  |  Muscle Legends V5  |  TEJAZ", WIN_CFG)
+local win, winFrame = library:AddWindow("👑 DOOM PAID HUB  |  Private Farming  👑", WIN_CFG)
 task.defer(function() injectSCPLogo(winFrame) end)
 
 -- Replace Silence logo with SCP skull icon
@@ -157,9 +157,9 @@ end)
 --  TAB: INFO
 -- ══════════════════════════════════════════
 local infoTab,_ = win:AddTab("📋  Info")
-infoTab:AddLabel("━━━━━━━  💎 SCP HUB PREMIUM INFO  ━━━━━━━")
-infoTab:AddLabel("🎮  Script:   SCP HUB PREMIUM  |  Muscle Legends V5")
-infoTab:AddLabel("👑  Author:   TEJAZ  (SCP_TEJAZ)")
+infoTab:AddLabel("━━━━━━━  💎 DOOM HUB PREMIUM INFO  ━━━━━━━")
+infoTab:AddLabel("🎮  Script:   DOOM PAID HUB  |  PRIVATE FARMING V5")
+infoTab:AddLabel("👑  Author:   AleKing")
 infoTab:AddLabel("💎  Version:  5.0 PREMIUM (Plateado)")
 infoTab:AddLabel("🔑  Key:      discord.gg/nDSy4jdVDc")
 infoTab:AddLabel("💬  Discord:  discord.gg/nDSy4jdVDc")
